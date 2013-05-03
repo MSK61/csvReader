@@ -1,0 +1,5 @@
+Debug
+RE:(?i).*\.sdf
+RE:(?i).*\.suo
+Release
+ipch
