@@ -2,6 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "csvReader", "csvReader\csvReader.vcxproj", "{A921A980-A140-421D-8AE9-65D705AA34B9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9932604F-372E-40D4-98FD-5AF5C00DE4FE} = {9932604F-372E-40D4-98FD-5AF5C00DE4FE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcsv-3.0.3", "libcsv-3.0.3\libcsv-3.0.3.vcxproj", "{9932604F-372E-40D4-98FD-5AF5C00DE4FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +18,10 @@ Global
 		{A921A980-A140-421D-8AE9-65D705AA34B9}.Debug|Win32.Build.0 = Debug|Win32
 		{A921A980-A140-421D-8AE9-65D705AA34B9}.Release|Win32.ActiveCfg = Release|Win32
 		{A921A980-A140-421D-8AE9-65D705AA34B9}.Release|Win32.Build.0 = Release|Win32
+		{9932604F-372E-40D4-98FD-5AF5C00DE4FE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9932604F-372E-40D4-98FD-5AF5C00DE4FE}.Debug|Win32.Build.0 = Debug|Win32
+		{9932604F-372E-40D4-98FD-5AF5C00DE4FE}.Release|Win32.ActiveCfg = Release|Win32
+		{9932604F-372E-40D4-98FD-5AF5C00DE4FE}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
