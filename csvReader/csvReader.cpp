@@ -8,7 +8,7 @@ int _tmain(int argc, _TCHAR* argv[])
 {
     std::list< std::vector< std::string > > records;
 
-    ReadCsvFile(argv[1], std::back_inserter(records));
+    CvsUtils::ReadCsvFile(argv[1], std::back_inserter(records));
 	return 0;
 }
 
