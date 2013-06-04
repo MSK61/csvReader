@@ -3,4 +3,5 @@ RE:(?i).*\.sdf
 RE:(?i).*\.suo
 Release
 ipch
-./libcsv
+./src/libcsv
+doc/*
