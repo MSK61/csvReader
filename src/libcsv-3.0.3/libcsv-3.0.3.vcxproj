@@ -53,6 +53,7 @@ copy csv.h "%incDir%"</Command>
     </PostBuildEvent>
     <PreBuildEvent>
       <Command>set incDir=$(SolutionDir)libcsv
+
 IF EXIST %incDir% rmdir /Q /S %incDir%</Command>
       <Message>Remove the old external include directory.</Message>
     </PreBuildEvent>
@@ -77,6 +78,7 @@ copy csv.h "%incDir%"</Command>
     </PostBuildEvent>
     <PreBuildEvent>
       <Command>set incDir=$(SolutionDir)libcsv
+
 IF EXIST %incDir% rmdir /Q /S %incDir%</Command>
       <Message>Remove the old external include directory.</Message>
     </PreBuildEvent>
