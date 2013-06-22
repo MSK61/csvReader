@@ -14,7 +14,7 @@ namespace CvsUtils
       * This function opens the given csv file, parses the records in it, and
       * the closes it.
       *
-      * @tparam    T        output record iterator, where a record is
+      * @tparam     T       output record iterator, where a record is
       *                     represented by a field vector
       * @param[in]  csvName csv file name
       * @param[out] records output iterator to a record, where a single record
