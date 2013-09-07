@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "csvReader", "csvReader\csvReader.vcxproj", "{A921A980-A140-421D-8AE9-65D705AA34B9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "csvReader", "csvReader.vcxproj", "{A921A980-A140-421D-8AE9-65D705AA34B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
