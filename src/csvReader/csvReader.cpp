@@ -6,7 +6,6 @@
  *
  * This file defines the entry point for the console application.
  */
-
 #include "stdafx.h"
 #include <fstream>
 #include <libcsv\csv.h>
@@ -32,12 +31,12 @@ struct ParseInfo
 namespace
 {
     /**
-      * @brief Appends a field to the current active record
-      *
-      * @param[in] txt        field to add
-      * @param[in] txtLen     field length, in bytes
-      * @param     parsedRecs parsed information
-      */
+     * @brief Appends a field to the current active record
+     *
+     * @param[in] txt        field to add
+     * @param[in] txtLen     field length, in bytes
+     * @param     parsedRecs parsed information
+     */
     void AddField(void* txt, size_t txtLen, void* parsedRecs)
     {
 
@@ -46,14 +45,14 @@ namespace
     }
 
     /**
-      * @brief Appends a record to the record list
-      *
-      * The current active record is reset for the next record reading
-      * operation.
-      *
-      * @param[in] delim      record delimiter
-      * @param     parsedRecs parsed information
-      */
+     * @brief Appends a record to the record list
+     *
+     * The current active record is reset for the next record reading
+     * operation.
+     *
+     * @param[in] delim      record delimiter
+     * @param     parsedRecs parsed information
+     */
     void AddRecord(int delim, void* parsedRecs)
     {
         ParseInfo* const recStore = (ParseInfo*)parsedRecs;
@@ -65,11 +64,12 @@ namespace
 }
 
 /**
-* @brief Executes the program
-*
-* @param[in] argc number of command-line arguments
-* @param[in] argv command-line arguments
-*/
+ * @brief Executes the program
+ *
+ * @param[in] argc number of command-line arguments
+ * @param[in] argv command-line arguments
+ * @return         program exit code
+ */
 int _tmain(int argc, _TCHAR* argv[])
 {
     using std::ifstream;
